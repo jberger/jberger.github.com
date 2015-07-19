@@ -1,0 +1,80 @@
+---
+title: Joel Berger
+author: jberger
+tags: about me
+---
+
+<div class="page-header">
+  <h1>Joel Berger <small>Physicist, Perl Developer</small></h1>
+</div>
+
+<style>
+  body header { display: none; }
+  .nav-stacked li a {
+    font-size: medium;
+    padding: initial;
+  }
+  .nav-stacked li.disabled {
+    margin-top: 9px;
+    font-size: smaller;
+    font-weight: bold;
+  }
+</style>
+
+<div class="row">
+  <!-- side navigation -->
+  <div class="col-md-3">
+    <ul class="nav nav-stacked">
+      <li class="disabled"><a href="#">Navigation</a></li>
+      <li id="nav-items"></li>
+      <li class="disabled"><a href="#">Links</a></li>
+      <li><a href="http://scholar.google.com/citations?user=wCxlFloAAAAJ">
+        Publications
+      </a></li>
+      <li><a href="http://perl4science.github.com">Perl4Science</a></li>
+      <li><a href="https://github.com/jberger">GithHub: jberger</a></li>
+      <li><a href="https://metacpan.org/author/jberger">CPAN: jberger</a></li>
+      <li><a href="http://blogs.perl.org/users/joel_berger/">Perl Blog</a></li>
+      <li><a href="http://galileo-cms.herokuapp.com">Galileo CMS</a></li>
+      <li><a href="http://stackexchange.com/users/214385">
+        <img src="http://stackexchange.com/users/flair/214385.png?theme=clean" width="208" height="58" alt="profile for Joel Berger on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Joel Berger on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+      </a></li>
+    <ul>
+
+
+  </div>
+
+  <!-- main body -->
+  <div class="col-md-9">
+    <h2 class="add-to-nav" id="about">About Me</h2>
+    <p>I love science. Primarily, I'm a physicist, but I have severe programming leanings. I love open-source software. I think that science and open-source make a really good couple.</p>
+
+    <p>I think that modern programming practices and technologies could greatly benefit the scientific community, and I would love to help facilitate this process. Scientific code doesn't have to be bad code.</p>
+
+    <h2 class="add-to-nav" id="research">My Research</h2>
+
+    <p>My research has been focused on Ultrafast Electron Microscopy, in which the spatial resolution of an electron microscope is combined with the temporal resolution of an ultrafast laser. Early intruments have either been limited to nanosecond time resolutions or been confined to repeatable processes. I have worked to help push UEM to its expected resolution product, in the ballpark of \(\sim 1\text{nm}\cdot\text{ps}\). I have done this through modeling of ultrafast pulses, as well as theoretical and experimental analysis of photocathode materials, the photoemission processes, and even the column design.</p>
+
+    <h3 class="add-to-nav" id="thesis">Thesis</h3>
+
+    <p>The published form of my thesis is available in <a href="https://github.com/jberger/Thesis/raw/master/thesis.pdf">PDF format</a> and the LaTeX source is available from my <a href="http://github.com/jberger/Thesis">GitHub</a> page.</p>
+
+    <h2 class="add-to-nav" id="perl">Perl and Science</h2>
+
+    <p>I love the <a href="http://perl.org">Perl</a> programming language. It's a flexible and useful language, both for scientific and other purposes. I believe strongly that Perl's <a href="http://metacpan.org">code-sharing</a> and <a href="http://cpantesters.org">testing</a> cultures fit well with the scientific ideals of knowledge-sharing and verification/repeatibility. Sadly, Perl isn't in the list of top choices for scientific programming anymore. I hope to increase the use of Perl in the scientific community, and to do so by example.</p>
+
+    <p>I have written several useful Perl modules, including my main research simulation <a href="https://metacpan.org/module/Physics::UEMColumn">Physics::UEMColumn</a>, a module for laser-cavity stability analysis <a href="http://metacpan.org/module/Physics::RayTransfer">Physics::RayTransfer</a>, and <a href="http://metacpan.org/module/MooseX::Types::NumUnit">MooseX::Types::NumUnit</a> a plugin for Moose for handling units. I have also been writing Perlish interfaces to the <a href="http://www.gnu.org/software/gsl/">Gnu Scientific Library</a> under the <a href="http://metacpan.org/module/PerlGSL">PerlGSL</a> namespace, and I'm involved with the PDL Porters who maintain the <a href="http://pdl.perl.org">Perl Data Language (PDL)</a>, which is an array-oriented library for Perl (in the manner of MatLab or NumPy).</p>
+
+    <p>Of course, its also important to be vocal in the communities. I regularly <a href="http://blogs.perl.org/users/joel_berger/">blog</a> about Perl. I run the website <a href="http://perl4science.github.com">perl4science.github.com</a> and I have given talks about Perl at scientific venues, and science at Perl conferences, like the one below at YAPC::NA 2012.</p>
+
+    <div style='text-align:center;'>
+      <iframe width="420" height="315" src="http://www.youtube.com/embed/YnW1hTVQYfA?rel=0#t=3m53s" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <h2 class="add-to-nav" id="galileo">Galileo CMS</h2>
+
+    <p>In order to teach myself <a href="http://mojolicio.us">Mojolicious</a> (I am now a core developer) and the Perl ORM <a href="http://metacpan.org/module/DBIx::Class">DBIx::Class</a>, I wrote a CMS called <a href="http://metacpan.org/module/Galileo">Galileo</a>. Its goal is to be a totally CPAN installable CMS, making it as simple to install and use as possible. It is still rather simplistic, but I think it is very useful for times when you need a website right now, or when you don't have any technical knowledge. It is still under active development. I have an example site running at <a href="http://galileo-cms.herokuapp.com">galileo-cms.herokuapp.com</a>, though edits made to the site will not be saved.</p>
+
+  </div>
+</div>
+
