@@ -39,7 +39,7 @@ tags: about me
       <li><a href="http://stackexchange.com/users/214385">
         <img src="http://stackexchange.com/users/flair/214385.png?theme=clean" width="208" height="58" alt="profile for Joel Berger on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Joel Berger on Stack Exchange, a network of free, community-driven Q&amp;A sites">
       </a></li>
-    <ul>
+    </ul>
 
 
   </div>
@@ -57,7 +57,7 @@ tags: about me
 
     <h3 class="add-to-nav" id="thesis">Thesis</h3>
 
-    <p>The published form of my thesis is available in <a href="https://github.com/jberger/Thesis/raw/master/thesis.pdf">PDF format</a> and the LaTeX source is available from my <a href="http://github.com/jberger/Thesis">GitHub</a> page.</p>
+    <p>The published form of my thesis is available in <a href="https://github.com/jberger/Thesis/raw/master/thesis.pdf">PDF format</a> and the LaTeX source is available from my <a href="http://github.com/jberger/Thesis">GitHub</a> page. It is also available from the <a href="https://indigo.uic.edu/handle/10027/10206">UIC Library</a> and <a href="https://archive.org/details/ultrafast_electron_microscopes_berger_phd_thesis.pdf">archive.org</a>.</p>
 
     <h2 class="add-to-nav" id="perl">Perl and Science</h2>
 
