@@ -12,7 +12,7 @@ page_app:
   args:
     store: page
     url_root: /page
-  class: Statocles::App::Plain
+  class: Statocles::App::Basic
 site:
   args:
     apps:
@@ -20,8 +20,6 @@ site:
         $ref: blog_app
       page:
         $ref: page_app
-      static:
-        $ref: static_app
     base_url: http://jberger.github.io
     deploy:
       $ref: deploy
@@ -38,11 +36,6 @@ site:
     - build:
         $class: Statocles::Plugin::LinkCheck
         $sub: check_pages
-static_app:
-  args:
-    store: static
-    url_root: /static
-  class: Statocles::App::Static
 theme:
   args:
     store: theme
