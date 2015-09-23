@@ -36,8 +36,8 @@ tags: about me
       <li><a href="https://metacpan.org/author/jberger">CPAN: jberger</a></li>
       <li><a href="http://blogs.perl.org/users/joel_berger/">Perl Blog</a></li>
       <li><a href="http://galileo-cms.herokuapp.com">Galileo CMS</a></li>
-      <li><a href="http://stackexchange.com/users/214385">
-        <img src="http://stackexchange.com/users/flair/214385.png?theme=clean" width="208" height="58" alt="profile for Joel Berger on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Joel Berger on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+      <li><a href="https://stackexchange.com/users/214385">
+        <img src="https://stackexchange.com/users/flair/214385.png?theme=clean" width="208" height="58" alt="profile for Joel Berger on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Joel Berger on Stack Exchange, a network of free, community-driven Q&amp;A sites">
       </a></li>
     </ul>
 
