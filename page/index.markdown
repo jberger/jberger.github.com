@@ -68,7 +68,7 @@ tags: about me
     <p>Of course, its also important to be vocal in the communities. I regularly <a href="http://blogs.perl.org/users/joel_berger/">blog</a> about Perl. I run the website <a href="http://perl4science.github.com">perl4science.github.com</a> and I have given talks about Perl at scientific venues, and science at Perl conferences, like the one below at YAPC::NA 2012.</p>
 
     <div style='text-align:center;'>
-      <iframe width="420" height="315" src="http://www.youtube.com/embed/YnW1hTVQYfA?rel=0#t=3m53s" frameborder="0" allowfullscreen></iframe>
+      <iframe width="420" height="315" src="//www.youtube.com/embed/YnW1hTVQYfA?rel=0#t=3m53s" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <h2 class="add-to-nav" id="galileo">Galileo CMS</h2>
